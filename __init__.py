@@ -15,7 +15,8 @@ while a==0:
         print ""
         a=0
     else:
-        a=1    
+        a=1
+        print user
         print "Crear Post"
         text = raw_input('Texto: ')
         post=client.service.crearPost(username,text)
